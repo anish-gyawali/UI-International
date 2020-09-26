@@ -8,7 +8,11 @@
 }
 
 .card{
+    background-color: blue;
     padding-left: 50px;
-  padding-right: 21px;
-    
+  padding-right: 70px;   
+}
+#phone{
+    box-shadow:solid  chocolate;
+    padding-left: 70px;
 }

@@ -9,9 +9,11 @@ import {
   Button,
 } from "reactstrap";
 
+import "../CSS/component.css";
+
 function card({ title, subtitle, test, imageUrl }) {
   return (
-    <Card>
+    <Card id="phone">
       <CardImg src={imageUrl} />
       <CardBody>
         <CardTitle>{title}</CardTitle>
