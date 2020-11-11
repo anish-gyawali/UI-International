@@ -1,8 +1,19 @@
 nav.navbar {
-  background: rgba(226, 200, 160, 0.877);
+  background:rgb(13, 116, 13);
+  /* background: rgba(226, 200, 160, 0.877); */
 }
-
+.top-nav{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+Button{
+  background-color:  rgb(231, 197, 145) !important;
+}
 .navbar-container {
+  font-size: 1.25rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -57,7 +68,9 @@ nav a.is-active {
  width: 80%;
  margin: 0 auto;
 }
-
+.link{
+  color: white;
+}
 @media only screen and (min-width: 992px) {
   .navbar-toggler {
     display: none;

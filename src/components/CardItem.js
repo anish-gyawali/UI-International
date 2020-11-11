@@ -5,7 +5,7 @@ import '../components/component.css';
 function CardItem(props) {
   return (
     <>
-      <Card className="cardSection">
+      <Card >
           {props.title}
           
       </Card>

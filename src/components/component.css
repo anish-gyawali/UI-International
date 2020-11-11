@@ -28,7 +28,7 @@ video {
 }
 
 .SeviceTitle{
-  background-color:rgba(226, 200, 160, 0.247) ;
+ background-color:rgba(226, 200, 160, 0.247) ;
   width: 100%;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -50,23 +50,6 @@ video {
     
   }
   
-}
-
-
-.inner {
-  overflow: hidden;
-}
-
-.inner img {
-  transition: all 1.5s ease;
-}
-
-.inner:hover img {
-  transform: scale(1.5);
-}
-
-.box {
-  margin: 20px;
 }
 
 .grid {
@@ -107,6 +90,15 @@ video {
   }
   
 }
+/*Carousel*/
+.carousel-Container{
+ justify-content: center;
+}
+.carousel-image{
+  height: 80vh;
+  width: 100%;
+  background-size:cover;    
+}
 
 /* footer */
 
@@ -118,7 +110,7 @@ video {
 
 .cfooter {
   padding-top: 3%;
-  background: rgba(226, 200, 160, 0.877);
+  background:rgb(13, 116, 13);
   color: #000;
   padding-left: 3rem;
   opacity: 0.9;

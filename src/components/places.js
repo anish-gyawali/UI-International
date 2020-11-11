@@ -54,7 +54,6 @@ function Places () {
       <Card
         style={{ width: "18rem" }}
         key={index}
-        className="shadow p-2 mb-6 bg-white rounded"
       >
         <div className="inner">
           <CardImg
